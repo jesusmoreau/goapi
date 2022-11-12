@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="User Journey Map YAML Schema">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="User Journey Map YAML Schema" />
+              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/arvinxx/components/master/packages/journey-map/schema/journey-map.schema.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="settings/settings.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
