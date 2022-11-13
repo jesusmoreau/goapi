@@ -5,6 +5,8 @@ import (
 	"github.com/jmoiron/sqlx"
 	"go.uber.org/fx"
 	"goapi/database"
+	"goapi/internal/repository"
+	"goapi/internal/service"
 	"goapi/settings"
 	"log"
 )
@@ -15,7 +17,10 @@ func main() {
 		fx.Provide(
 			context.Background,
 			settings.New,
-			database.New),
+			database.New,
+			repository.New,
+			service.New,
+		),
 		fx.Invoke(
 			func(s *settings.Settings) {
 				log.Println(s)
